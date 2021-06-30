@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="card" style="width: 18rem;">
+      <img src="./public/uploads/<%=foundImage%>" class="card-img-top" alt="profile image" width="18rem">
+      <div class="card-body">
+        <h5 class="card-title"><%=foundName%></h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><%=foundContact%></li>
+        <li class="list-group-item"><%=foundEmail%></li>
+        <li class="list-group-item"><%=foundAddress%></li>
+      </ul>
+      <div class="card-body">
+        <a href="/update" class="card-link">Update profile</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
+
+
+<%# C:\Users\Asus\Desktop\web dev\internship_task\public\uploads %>
